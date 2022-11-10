@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  color: #edf0f1;
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li,a {
+  font-family:  sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:30px 10% ;
+  height: 100px;
+  background-color:#242524;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.log{
+  /* display: flex;
+justify-self: self-end; */
+ /* justify-self: sp; */
+ display: flex;
+ justify-items: flex-start;
+ justify-content: space-around;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  height: 70px;
+  width: 70px;
+
+}
+
+h1{
+  margin-left: 20px;
+}
+
+#tag{
+  font-size: 70px;
+  color: #edf0f1;
+  background-color: black;
+  margin: 10px;
+  font-weight: bolder;
+  border-radius: 14px;
+  padding: 5px;
+}
+
+#para{
+  color: #edf0f1;
+  background-color: black;
+
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 14px;
+  padding: 5px;
+  border: none;
+
+}
+
+
+.ctrl{
+  display: flex;
+  justify-content: space-around;
+}
+#get{
+ border: none;
+  background-color: rgba(24, 79, 255, 0.91);
+  color: #edf0f1;
+  height: 40px;
+  width: 150px;
+  font-size: larger;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+#learn{
+  color: #edf0f1;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  margin: 3px;
+  background-color:rgba(0, 0, 11, 0);
+  border: none;
+
+
+}
+
+#fon{
+  color: aliceblue;
+  margin-right: 3px;
+}
+
+.App{
+  background-color: rgba(0, 0, 11, 0.72);
+}
+
+.line-1{
+
+    height: 5px;
+    background: black;
+ 
+}
+
+
+.ord{
+display: flex;
+text-align: start;
+justify-content: space-between;
+}
+
+#font{
+  color: black;
+  margin: 4px;
+}
+
+#fine{
+  height: 600px;
+  width: 600px;
 }
